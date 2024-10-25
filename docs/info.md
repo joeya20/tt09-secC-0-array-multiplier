@@ -9,9 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-It accepts two 4-bit inputs and outputs the sum.
+It accepts two 4-bit inputs and outputs the product.
 
-![Block Diagram](diagram.png)
+![](diagram.png)
 
 ## How to test
 
