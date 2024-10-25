@@ -22,8 +22,7 @@ module tt_um_c_0_4b_mul (
   assign a = ui_in[3:0];
   assign b = ui_in[7:4];
 	
-  assign uo_out[7:4] = 4'b0;
-  assign uo_out[3:0] = a + b;
+  assign uo_out = a * b;
 
   // All output pins must be assigned. If not used, assign to 0.
   assign uio_out = 0;
